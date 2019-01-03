@@ -1,7 +1,7 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <p class="page-desc">{{ $t('text') }}</p>
+      <p class="page-desc">{{ $t('text') }</p>
       <van-pull-refresh
         v-model="refreshing"
         @refresh="onRefresh"
